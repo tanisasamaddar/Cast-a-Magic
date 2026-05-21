@@ -29,3 +29,7 @@ function draw()
 function mouseDragged() {
   stars.push(new Star(mouseX, mouseY));
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
